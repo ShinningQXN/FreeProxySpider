@@ -1,0 +1,215 @@
+INFO:scrapy.utils.log:Scrapy 1.5.0 started (bot: free_proxy)
+INFO:scrapy.utils.log:Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.5.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:11:22) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.5.0-x86_64-i386-64bit
+INFO:scrapy.crawler:Overridden settings: {'SPIDER_MODULES': ['free_proxy.spiders'], 'BOT_NAME': 'free_proxy', 'COOKIES_ENABLED': False, 'NEWSPIDER_MODULE': 'free_proxy.spiders'}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6044
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): User timeout caused connection failure: Getting https://www.arrow.com/ took longer than 180.0 seconds..
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET https://www.arrow.com/> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+DEBUG:scrapy.downloadermiddlewares.retry:Gave up retrying <GET https://www.arrow.com/> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+ERROR:scrapy.core.scraper:Error downloading <GET https://www.arrow.com/>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 117,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 116,
+ 'downloader/request_bytes': 38844,
+ 'downloader/request_count': 117,
+ 'downloader/request_method_count/GET': 117,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 21, 16, 34, 52, 458008),
+ 'log_count/DEBUG': 118,
+ 'log_count/ERROR': 39,
+ 'log_count/INFO': 11,
+ 'memusage/max': 57245696,
+ 'memusage/startup': 52375552,
+ 'retry/count': 78,
+ 'retry/max_reached': 39,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 1,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 77,
+ 'scheduler/dequeued': 117,
+ 'scheduler/dequeued/memory': 117,
+ 'scheduler/enqueued': 117,
+ 'scheduler/enqueued/memory': 117,
+ 'start_time': datetime.datetime(2018, 6, 21, 16, 29, 59, 868643)}
+INFO:scrapy.core.engine:Spider closed (finished)

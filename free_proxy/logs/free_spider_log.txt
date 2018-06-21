@@ -1,0 +1,615 @@
+INFO:scrapy.utils.log:Scrapy 1.5.0 started (bot: free_proxy)
+INFO:scrapy.utils.log:Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.5.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:11:22) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.5.0-x86_64-i386-64bit
+INFO:scrapy.crawler:Overridden settings: {'BOT_NAME': 'free_proxy', 'COOKIES_ENABLED': False, 'SPIDER_MODULES': ['free_proxy.spiders'], 'NEWSPIDER_MODULE': 'free_proxy.spiders'}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+['free_proxy.pipelines.JsonWriterPipeline']
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6044
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://free-proxy-list.net/> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '114.134.187.162', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '212.118.62.84', 'port': '44551'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '200.95.174.180', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '52.68.246.231', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '149.56.45.68', 'port': '10000'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '45.6.216.79', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '40.114.121.235', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '18.179.92.228', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '138.201.223.250', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '129.213.76.9', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '192.116.142.153', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '167.99.224.142', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '163.44.165.165', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '209.97.129.32', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '185.18.114.142', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '163.172.86.64', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '180.211.134.238', 'port': '65205'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '110.164.181.164', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '47.75.230.208', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '54.36.162.123', 'port': '10000'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '54.65.86.208', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '84.1.114.154', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '71.13.112.152', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '191.252.194.156', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '159.65.9.66', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '185.93.3.123', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '118.69.34.21', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '177.92.4.70', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '178.57.46.109', 'port': '44331'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '178.57.225.45', 'port': '44331'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '94.130.14.146', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '13.92.196.150', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '177.204.85.203', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '52.69.254.83', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '94.130.20.85', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '147.135.210.114', 'port': '54566'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '89.250.157.122', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '118.27.30.203', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '23.97.215.153', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '139.99.106.27', 'port': '10000'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '88.99.149.188', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '66.82.144.29', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '87.255.8.38', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '110.137.148.99', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '139.255.57.32', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.89.71.70', 'port': '31222'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '78.134.30.75', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '91.215.140.61', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '118.69.77.217', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '189.108.153.90', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '110.235.249.3', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '51.15.86.88', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '213.235.94.6', 'port': '31323'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '46.8.117.32', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.30.18.121', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '202.74.242.248', 'port': '31323'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '213.6.40.142', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '122.183.139.109', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '159.224.176.205', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.30.21.98', 'port': '41258'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '103.205.177.44', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '119.110.69.130', 'port': '65103'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '218.186.27.31', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '78.26.207.173', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '158.69.143.77', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '178.217.107.8', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '122.183.137.190', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '122.183.139.107', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '185.158.127.9', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.30.22.233', 'port': '41258'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '45.76.235.248', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '111.68.108.34', 'port': '8080'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 338,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14705,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 21, 16, 11, 27, 586074),
+ 'item_scraped_count': 72,
+ 'log_count/DEBUG': 74,
+ 'log_count/INFO': 7,
+ 'memusage/max': 52244480,
+ 'memusage/startup': 52244480,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 6, 21, 16, 11, 27, 79857)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 1.5.0 started (bot: free_proxy)
+INFO:scrapy.utils.log:Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.5.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:11:22) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.5.0-x86_64-i386-64bit
+INFO:scrapy.crawler:Overridden settings: {'COOKIES_ENABLED': False, 'FEED_URI': './proxy_pool/original.json', 'BOT_NAME': 'free_proxy', 'NEWSPIDER_MODULE': 'free_proxy.spiders', 'FEED_FORMAT': 'json', 'SPIDER_MODULES': ['free_proxy.spiders']}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6044
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://free-proxy-list.net/> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '46.8.117.32', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '23.97.215.153', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '84.1.114.154', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '95.143.109.50', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '185.18.114.142', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '110.164.181.164', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '200.95.174.180', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '163.172.86.64', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '138.201.223.250', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '94.130.14.146', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '149.56.45.68', 'port': '10000'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '185.93.3.123', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '178.57.46.109', 'port': '44331'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '191.252.194.156', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '40.114.121.235', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '47.75.230.208', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '199.203.232.124', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '52.68.246.231', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '80.211.181.37', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '54.65.86.208', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '95.46.146.107', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '178.57.225.45', 'port': '44331'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '18.179.92.228', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '192.116.142.153', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '177.92.4.70', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '167.99.224.142', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '49.48.77.30', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '54.36.162.123', 'port': '10000'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '114.134.187.162', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '212.118.62.84', 'port': '44551'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '159.65.9.66', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '180.211.134.238', 'port': '65205'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '129.213.76.9', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '118.69.34.21', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '71.13.112.152', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '163.44.165.165', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '209.97.129.32', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '45.6.216.79', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '147.135.210.114', 'port': '54566'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '89.250.157.122', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '177.204.85.203', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '52.69.254.83', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '94.130.20.85', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '13.92.196.150', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '139.99.106.27', 'port': '10000'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '118.27.30.203', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '88.99.149.188', 'port': '31288'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '66.82.144.29', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '87.255.8.38', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '110.137.148.99', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '139.255.57.32', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '189.108.153.90', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '78.134.30.75', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '118.69.77.217', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '91.215.140.61', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.89.71.70', 'port': '31222'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '110.235.249.3', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '51.15.86.88', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '213.235.94.6', 'port': '31323'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.30.18.121', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '202.74.242.248', 'port': '31323'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '213.6.40.142', 'port': '80'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '159.224.176.205', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '122.183.139.109', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '119.110.69.130', 'port': '65103'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '103.205.177.44', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.30.21.98', 'port': '41258'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '218.186.27.31', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '78.26.207.173', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '158.69.143.77', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '122.183.137.190', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '178.217.107.8', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '122.183.139.107', 'port': '8080'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '185.158.127.9', 'port': '53281'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '45.76.235.248', 'port': '3128'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '81.30.22.233', 'port': '41258'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'ip': '111.68.108.34', 'port': '8080'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.extensions.feedexport:Stored json feed (77 items) in: ./proxy_pool/original.json
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 338,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14762,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 21, 16, 28, 22, 807813),
+ 'item_scraped_count': 77,
+ 'log_count/DEBUG': 79,
+ 'log_count/INFO': 8,
+ 'memusage/max': 52879360,
+ 'memusage/startup': 52875264,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 6, 21, 16, 28, 22, 300433)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 1.5.0 started (bot: free_proxy)
+INFO:scrapy.utils.log:Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 18.4.0, Python 3.5.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:11:22) - [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Darwin-17.5.0-x86_64-i386-64bit
+INFO:scrapy.crawler:Overridden settings: {'FEED_FORMAT': 'json', 'SPIDER_MODULES': ['free_proxy.spiders'], 'FEED_URI': './proxy_pool/original.json', 'NEWSPIDER_MODULE': 'free_proxy.spiders', 'BOT_NAME': 'free_proxy', 'COOKIES_ENABLED': False}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6044
+DEBUG:scrapy.core.engine:Crawled (200) <GET https://free-proxy-list.net/> (referer: None)
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '46.8.117.32'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '23.97.215.153'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '84.1.114.154'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '95.143.109.50'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '185.18.114.142'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '110.164.181.164'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '200.95.174.180'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '163.172.86.64'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '31288', 'ip': '138.201.223.250'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '31288', 'ip': '94.130.14.146'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '10000', 'ip': '149.56.45.68'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '185.93.3.123'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '44331', 'ip': '178.57.46.109'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '191.252.194.156'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '40.114.121.235'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '47.75.230.208'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '80', 'ip': '199.203.232.124'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '80', 'ip': '52.68.246.231'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '80.211.181.37'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '54.65.86.208'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '95.46.146.107'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '44331', 'ip': '178.57.225.45'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '18.179.92.228'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '192.116.142.153'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '80', 'ip': '177.92.4.70'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '167.99.224.142'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '49.48.77.30'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '10000', 'ip': '54.36.162.123'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '114.134.187.162'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '44551', 'ip': '212.118.62.84'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '159.65.9.66'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '65205', 'ip': '180.211.134.238'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '129.213.76.9'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '118.69.34.21'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '71.13.112.152'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '163.44.165.165'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '209.97.129.32'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '80', 'ip': '45.6.216.79'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '54566', 'ip': '147.135.210.114'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '89.250.157.122'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '80', 'ip': '177.204.85.203'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '80', 'ip': '52.69.254.83'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '31288', 'ip': '94.130.20.85'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '13.92.196.150'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '10000', 'ip': '139.99.106.27'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '118.27.30.203'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '31288', 'ip': '88.99.149.188'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '66.82.144.29'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '87.255.8.38'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '110.137.148.99'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '139.255.57.32'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '189.108.153.90'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '78.134.30.75'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '118.69.77.217'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '91.215.140.61'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '31222', 'ip': '81.89.71.70'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '110.235.249.3'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '51.15.86.88'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '31323', 'ip': '213.235.94.6'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '81.30.18.121'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '31323', 'ip': '202.74.242.248'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '80', 'ip': '213.6.40.142'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '159.224.176.205'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '122.183.139.109'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '65103', 'ip': '119.110.69.130'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '103.205.177.44'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '41258', 'ip': '81.30.21.98'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '218.186.27.31'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '78.26.207.173'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '158.69.143.77'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '122.183.137.190'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '178.217.107.8'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '122.183.139.107'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '53281', 'ip': '185.158.127.9'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '3128', 'ip': '45.76.235.248'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '41258', 'ip': '81.30.22.233'}
+DEBUG:scrapy.core.scraper:Scraped from <200 https://free-proxy-list.net/>
+{'port': '8080', 'ip': '111.68.108.34'}
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.extensions.feedexport:Stored json feed (77 items) in: ./proxy_pool/original.json
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 338,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14761,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 6, 21, 16, 29, 5, 333508),
+ 'item_scraped_count': 77,
+ 'log_count/DEBUG': 79,
+ 'log_count/INFO': 8,
+ 'memusage/max': 52629504,
+ 'memusage/startup': 52629504,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 6, 21, 16, 29, 4, 837664)}
+INFO:scrapy.core.engine:Spider closed (finished)
