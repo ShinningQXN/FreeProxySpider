@@ -13,15 +13,15 @@ class FreeProxyPipeline(object):
 
 
 
-class JsonWriterPipeline(object):
+# class JsonWriterPipeline(object):
 
-    def open_spider(self, spider):
-        self.file = open('./proxy_pool/original.json', 'w')
+#     def open_spider(self, spider):
+#         self.file = open('./proxy_pool/original.json', 'w')
 
-    def close_spider(self, spider):
-        self.file.close()
+#     def close_spider(self, spider):
+#         self.file.close()
 
-    def process_item(self, item, spider):
-        line = json.dumps(dict(item)) + "\n"
-        self.file.write(line)
-        return item
+#     def process_item(self, item, spider):
+#         line = json.dumps(dict(item)) + "\n"
+#         self.file.write(line)
+#         return item
