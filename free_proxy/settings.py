@@ -92,3 +92,38 @@ DOWNLOAD_TIMEOUT = 10
 # DOWNLOADER_MIDDLEWARES = {
 #     'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 1
 # }
+MONGODB_SERVER = "mongodb://jboss1:jboss2k12@52.14.231.149:27017/master_part"
+MONGODB_PORT = 27017
+MONGODB_DB = 'master_part'
+MONGODB_OCTOPART_IP_COLLECTION = 'octopart_ips' 
+MONGODB_ARROW_IP_COLLECTION = 'arrow_ips' 
+
+FREE_LIST_HEADER = {
+    'content-type':'application/x-www-form-urlencoded',
+    'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+}
+
+OCTOPART_HEADER = {
+    'authority': 'octopart.com',
+    'method': 'GET',
+    'accept': 'application/json, text/javascript, */*; q=0.01',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,la;q=0.6',
+    'referer': 'https://octopart.com/electronic-parts/integrated-circuits-ics',
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+    'accept': '*/*',
+    'dnt': 1
+}
+
+ARROW_HEADER = {
+	"Host": "www.arrow.com",
+    "Connection": "keep-alive",
+    "Cache-Control": "max-age=0",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "DNT": "1",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language":"en-US,en;q=0.8",
+    "referer": "https://www.arrow.com"
+}

@@ -3,43 +3,50 @@ from scrapy.http.request import Request
 import re
 import logging
 import urllib.request as urllib2
-
-
+from scrapy.utils.project import get_project_settings
+from pymongo import MongoClient
 
 # logger = logging.basicConfig(filename="./logs/free_spider_log.txt",level=logging.INFO)
 class ProxySpider(scrapy.Spider):
-    name = "ip_getter"
+    name = "octopart"
+
+    settings=get_project_settings()
+    free_list_header = settings.get('FREE_LIST_HEADER')
+    octopart_header = settings.get('OCTOPART_HEADER')
+    connection = MongoClient(settings['MONGODB_SERVER'],settings['MONGODB_PORT'])       
+    db = connection[settings['MONGODB_DB']]
+    ip_collection = db[settings['MONGODB_OCTOPART_IP_COLLECTION']]
+    ip_collection.remove({})
+
 
     custom_settings = {
-        # 'ITEM_PIPELINES': {
-        #     'free_proxy.pipelines.JsonWriterPipeline': 300,
-        # },
+        'ITEM_PIPELINES': {
+            'free_proxy.pipelines.MongoDB_OCTO_Pipeline': 300,
+        },
 
-        'FEED_URI': 'ips.json',
+        # 'FEED_URI': 'ips.json',
     }
-    headers_proxy = {
-        'content-type':'application/x-www-form-urlencoded',
-        'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
-    }
+    # headers_proxy = {
+    #     'content-type':'application/x-www-form-urlencoded',
+    #     'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
+    # }
     
-    headers_octo = {
-        'authority': 'octopart.com',
-        'method': 'GET',
-        'accept': 'application/json, text/javascript, */*; q=0.01',
-        'accept-encoding': 'gzip, deflate, br',
-        'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,la;q=0.6',
-        'referer': 'https://octopart.com/electronic-parts/integrated-circuits-ics',
-        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
-        'accept': '*/*',
-        'dnt': 1
-    }
-
-    proxys = []
-
+    # headers_octo = {
+    #     'authority': 'octopart.com',
+    #     'method': 'GET',
+    #     'accept': 'application/json, text/javascript, */*; q=0.01',
+    #     'accept-encoding': 'gzip, deflate, br',
+    #     'accept-language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,la;q=0.6',
+    #     'referer': 'https://octopart.com/electronic-parts/integrated-circuits-ics',
+    #     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+    #     'accept': '*/*',
+    #     'dnt': 1
+    # }
+    
 
     def start_requests(self):
         open('./ips.json', 'w').close()
-        request = Request(url= "https://free-proxy-list.net/", callback=self.parse, headers=self.headers_proxy)
+        request = Request(url= "https://free-proxy-list.net/", callback=self.parse, headers=self.free_list_header)
         yield request
 
 
@@ -48,7 +55,6 @@ class ProxySpider(scrapy.Spider):
         response.css('table.table-striped.table-bordered').css('tr')[1].css('td::text').extract()
         rows = response.css('table.table-striped.table-bordered').css('tr')
         count = 0
-        al = []
         # for each ip in the table
         for i in range(1, len(rows) - 1):
             item = rows[i].css('td::text').extract()
@@ -60,28 +66,18 @@ class ProxySpider(scrapy.Spider):
                 proxy = ip + ':' + port
 
                 # filter the proxy, customize the url and header               
-                request = Request(url= "https://octopart.com/electronic-parts/integrated-circuits-ics", callback=self.parse_valid, headers=self.headers_octo, dont_filter=True)
+                request = Request(url= "https://octopart.com/electronic-parts/integrated-circuits-ics", callback=self.parse_valid, headers=self.octopart_header, dont_filter=True)
                 request.meta['proxy'] = proxy
                 request.meta['qxn'] = proxy
-                al.append(ip)
                 try:
                     yield request                   
                 except:
-                    print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
                     continue
-                    
-                # yield {
-                #     'ip': ip,
-                #     'port': port
-                # }
-                    # break
-            # print (len(al))
-            # print ("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+
 
     def parse_valid(self, response):   
         ip = response.meta['qxn']
         yield {'ip': ip}
-        print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
         print (ip)
 
 
